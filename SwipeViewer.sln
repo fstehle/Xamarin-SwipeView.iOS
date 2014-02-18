@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwipeViewer", "SwipeViewer.csproj", "{6C3BF00E-D794-4CC8-887D-341F2397881E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwipeViewer", "SwipeView.Bindings\SwipeViewer.csproj", "{6C3BF00E-D794-4CC8-887D-341F2397881E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,6 @@ Global
 		{6C3BF00E-D794-4CC8-887D-341F2397881E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = SwipeViewer.csproj
+		StartupItem = SwipeView.Bindings\SwipeViewer.csproj
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,3 @@
+[submodule "vendor/SwipeView"]
+	path = vendor/SwipeView
+	url = git://github.com/nicklockwood/SwipeView.git
