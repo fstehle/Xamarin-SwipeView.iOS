@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Xamarin.SwipeView.iOS</id>
+    <version>1.3.2</version>
+    <authors>SwipeView</authors>
+    <description>Horizontal, paged scrolling views based on UIScrollView, with convenient functionality in UITableView-style.</description>
+  </metadata>
+  <files>
+    <file src="SwipeView.dll" target="lib/MonoTouch" />
+  </files>
+</package>

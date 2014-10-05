@@ -3,14 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{6C3BF00E-D794-4CC8-887D-341F2397881E}</ProjectGuid>
     <ProjectTypeGuids>{F5B4F3BC-B597-4E2B-B552-EF5D8A32436F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>SwipeViewer</RootNamespace>
+    <RootNamespace>SwipeView</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>SwipeViewer</AssemblyName>
+    <AssemblyName>SwipeView</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,11 +45,11 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Xamarin.ObjcBinding.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="libSwipeViewSDK.linkwith.cs">
-      <DependentUpon>libSwipeViewSDK.a</DependentUpon>
+    <Compile Include="libSwipeView.linkwith.cs">
+      <DependentUpon>libSwipeView.a</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libSwipeViewSDK.a" />
+    <ObjcBindingNativeLibrary Include="libSwipeView.a" />
   </ItemGroup>
 </Project>

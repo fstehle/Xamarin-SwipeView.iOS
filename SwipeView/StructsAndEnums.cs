@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace SwipeViewer
+namespace SwipeView
 {
 	public enum SwipeViewAlignment {
 		Edge = 0,

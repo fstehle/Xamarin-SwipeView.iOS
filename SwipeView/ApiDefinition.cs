@@ -4,7 +4,7 @@ using MonoTouch.ObjCRuntime;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace SwipeViewer
+namespace SwipeView
 {
 	// The first step to creating a binding is to add your native library ("libNativeLibrary.a")
 	// to the project by right-clicking (or Control-clicking) the folder containing this source
@@ -175,7 +175,8 @@ namespace SwipeViewer
 		int IndexOfItemViewOrSubview (UIView view);
 	}
 
-	[Model, BaseType (typeof (NSObject))]
+	[BaseType (typeof (NSObject))]
+  [Model, Protocol]
 	public partial interface SwipeViewDataSource {
 
 		[Export ("numberOfItemsInSwipeView:")]
@@ -185,7 +186,8 @@ namespace SwipeViewer
 		UIView ViewForItemAtIndex (SwipeView swipeView, int index, UIView view);
 	}
 
-	[Model, BaseType (typeof (NSObject))]
+	[BaseType (typeof (NSObject))]
+  [Model, Protocol]
 	public partial interface SwipeViewDelegate {
 
 		[Export ("swipeViewItemSize:")]
